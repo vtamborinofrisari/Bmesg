@@ -1,7 +1,7 @@
 # Bmesg
 Lightweight terminal-based Bluetooth text-chat for Linux 
 ## Requirements
-obexftp 0.24 (Bmesg works)
+obexftp 0.24 (Bmesg works), 
 bluez version 5.3 or more (Bmesg works)
 
 The program was tested on Ubuntu 22.04 and 24.04 LTS versions. Being a bash script it should work also on other Linux distros provided `obexftp` and `bluez` are installed.
