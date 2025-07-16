@@ -6,6 +6,8 @@ function on_message_sent() {
     cat "${chat_file}"
 }
 
+path_to_writer='$HOME/Downloads/writer.sh'
+
 clear
 read -p "Connect via bluetooth to the other device. Then press enter" s
 
@@ -58,7 +60,7 @@ export id_chat
 export chat_file
 bmesg_PID=$$
 export bmesg_PID
-gnome-terminal --title="Send message" --geometry=90x5 -- bash -c "$HOME/Documents/Bmesg_scripts/writer.sh"
+gnome-terminal --title="Send message" --geometry=90x5 -- bash -c "${path_to_writer}"
 
 on_message_sent
 trap "on_message_sent" USR1
