@@ -14,4 +14,4 @@ Basically, you have to connect the two devices via Bluetooth and select them in 
 
 Start text-messaging via Bluetooth in real-time.
 ## Feedback
-I appreciate any comments and feedback on the program or suggestion of improvements
+I appreciate any comments and feedback on the program or suggestions for improvements
