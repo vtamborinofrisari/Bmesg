@@ -8,7 +8,7 @@ The program was tested on Ubuntu 22.04 and 24.04 LTS versions. Being a bash scri
 ## How to use Bmesg
 Download `bmesg.sh` and `writer.sh` scripts on your pc, make them executable. Open `bmesg.sh` with a text editor and change the value of variable `path_to_writer` so that it has the path of the file `writer.sh` you have just downloaded on your pc.
 
-and launch them on the two PCs you want to communicate via Bluetooth. Then follow instructions.
+Launch `bmesg.sh` on the two PCs you want to communicate via Bluetooth. Then follow instructions.
 
 Basically, you have to connect the two devices via Bluetooth and select them in Bmesg. Then choose a *Chat ID that is the same for both devices*.
 
